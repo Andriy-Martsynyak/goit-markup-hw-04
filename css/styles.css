@@ -548,19 +548,15 @@ img {
   flex-wrap: wrap;
   gap: 30px;
 }
-.projects-list .text {
-  color: var(--primary-text-color);
+
+.projects-list-link {
+  display: block;
 }
 
-.projects-list-item:hover,
-.projects-list-item:focus {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-/* .projects-list-link:hover,
+.projects-list-link:hover,
 .projects-list-link:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-} */
+}
 
 .projects-list .title {
   color: var(--title-text-color);
@@ -573,6 +569,7 @@ img {
 .projects-list .text {
   font-size: 16px;
   line-height: 1.88;
+  color: var(--primary-text-color);
 }
 
 .projects-text-box {
@@ -581,6 +578,11 @@ img {
   border-bottom: 1px solid var(--border-content-color);
 
   padding: 20px 24px;
+}
+
+.button-list .button:hover,
+.button-list .button:focus {
+  box-shadow: 0px 4px 4px 0px #00000040;
 }
 
 /* =============/Portfolio============ */
